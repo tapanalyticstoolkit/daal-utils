@@ -12,7 +12,7 @@
     <artifactId>daal-utils</artifactId>
     <packaging>jar</packaging>
     <groupId>org.trustedanalytics</groupId>
-    <version>master-SNAPSHOT</version>
+    <version>0.1.0</version>
 
     <profiles>
         <profile>
@@ -60,7 +60,29 @@
             </plugin>
         </plugins>
     </build>
-
+    <repositories>
+    <repository>
+        <id>tap</id>
+        <url>https://tap.jfrog.io/tap/public</url>
+        <snapshots>
+            <enabled>false</enabled>
+            <updatePolicy>daily</updatePolicy>
+        </snapshots>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+    </repository>
+        <repository>
+            <id>tap-snapshots</id>
+            <url>https://tap.jfrog.io/tap/public-snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+        </repository>
+    </repositories>
     <dependencies>
         <dependency>
             <groupId>com.intel.daal</groupId>
