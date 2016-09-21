@@ -12,7 +12,7 @@
     <artifactId>daal-utils</artifactId>
     <packaging>jar</packaging>
     <groupId>org.trustedanalytics</groupId>
-    <version>0.1.0</version>
+    <version>master-SNAPSHOT</version>
 
     <profiles>
         <profile>
