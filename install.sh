@@ -6,8 +6,10 @@
 
 #This is not universal DAAL installation. The full DAAL install can be found here https://github.com/01org/daal/releases
 INSTALL_DIR=$HOME/daal
+
 DAAL_VERSION="2016.2.181"
 DAAL_PACKAGE="https://github.com/trustedanalytics/daal-install/releases/download/v0.1.0-daal-2016.2.181/daal-2016.2.181.tar.gz"
+
 
 TMP_DIR="/tmp/DAAL/$DAAL_VERSION"
 
