@@ -1,9 +1,14 @@
+#daal-utils
 
-Intel DAAL utilities
-====================================
-This module contains extensions to the Intel DAAL libraries, and
-the pre-compiled Intel DAAL jars and dynamic libraries for 64-bit Linux
-environments required by the TAP Analytics Toolkit.
+This repo contains extensions to the Intel DAAL libraries, and the pre-compiled Intel DAAL jars and dynamic libraries for 64-bit Linux environments required by the TAP Analytics Toolkit (ATK). `daal-utilities` supports the TAP ATK daal-tk library, which is located at: [https://github.com/tapanalyticstoolkit/daal-tk](https://github.com/tapanalyticstoolkit/daal-tk).
+
+##What's New
+
+This is the initial release of `daal-utils`.
+
+##Known Issues
+
+None.
 
 The extensions to Intel DAAL include:
 * Java wrappers for model serialization and deserialization
@@ -20,21 +25,8 @@ To install the compiled Intel DAAL libraries, run:
 ```
 
 ## Build libraries
-To re-build the dynamic libraries for the Intel DAAL extensions:
-Export the Intel DAAL environment variables to set the path to the
-Intel DAAL root directory. The best way to do this is run this command
-from Intel DAAL's installation directory
+To re-build the dynamic libraries for the Intel DAAL extensions, export the Intel DAAL environment variables to set the path to the Intel DAAL root directory. The best way to do this is to run this command from Intel DAAL's installation directory:
 
 ```
  %linux-prompt> source bin/daalvars.sh intel64
 ```
-
-
-Build the Intel DAAL extensions used by the TAP analytics toolkit
-
-```
- %linux-prompt> mvn install -P daal-make -DskipTests
-```
-
-The install builds the jar files and the dynamic library lib/intel64_lin/libDaalTkJavaAPI.so
-
