@@ -1,6 +1,6 @@
 #daal-utils
 
-This repo contains extensions to the Intel DAAL libraries, and the pre-compiled Intel DAAL jars and dynamic libraries for 64-bit Linux environments required by the TAP Analytics Toolkit (ATK). `daal-utilities` supports the TAP ATK daal-tk library, which is located at: [https://github.com/tapanalyticstoolkit/daal-tk](https://github.com/tapanalyticstoolkit/daal-tk).
+This repo contains extensions to the Intel DAAL libraries, and the pre-compiled Intel DAAL jars and dynamic libraries for 64-bit Linux environments required by the TAP Analytics Toolkit (ATK). `daal-utils` supports the TAP ATK daal-tk library, which is located at: [https://github.com/tapanalyticstoolkit/daal-tk](https://github.com/tapanalyticstoolkit/daal-tk).
 
 ##What's New
 
