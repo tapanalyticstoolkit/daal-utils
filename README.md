@@ -4,7 +4,7 @@ This repo contains extensions to the Intel DAAL libraries, and the pre-compiled 
 
 ##What's New
 
-This is the initial release of `daal-utils`.
+This is the initial release of the `daal-utils` repo.
 
 ##Known Issues
 
