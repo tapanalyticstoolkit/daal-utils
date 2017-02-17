@@ -8,7 +8,7 @@
 INSTALL_DIR=$HOME/daal
 
 DAAL_VERSION="2016.2.181"
-DAAL_PACKAGE="https://github.com/trustedanalytics/daal-install/releases/download/v0.1.0-daal-2016.2.181/daal-2016.2.181.tar.gz"
+DAAL_PACKAGE="https://github.com/tapanalyticstoolkit/daal-utils/releases/download/v0.1.0-daal-2016.2.181/daal-2016.2.181.tar.gz"
 
 
 TMP_DIR="/tmp/DAAL/$DAAL_VERSION"
